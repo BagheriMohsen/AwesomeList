@@ -1,19 +1,25 @@
 # AwesomeList
 
-install virtualenv__
+install virtualenv
+<br />
 
 #step 1:
-  create directory whatever name you want__
+  <br />
+  create directory whatever name you want
+  <br />
 #in your dir:
-
+<br />
 #step 2:
-  use this commandline => `virtualenv venv`__
+<br />
+  use this commandline => `virtualenv venv`
+  <br />
 #step 3:
-  active virtualenv with below command:__
-    linux =>  `source venv/bin/activate`__
-    win   =>  `venv\Scripts\activate`__
+  active virtualenv with below command:
+  <br />
+    linux =>  `source venv/bin/activate`<br />
+    win   =>  `venv\Scripts\activate`<br />
 #step 4:
-  run `pip install -r req.txt`__
-#step 5:
-  get AwesomeList DIR and run below command:__
+  run `pip install -r req.txt`<br />
+#step 5:<br />
+  get AwesomeList DIR and run below command:<br />
     `python manage.py runserver`
