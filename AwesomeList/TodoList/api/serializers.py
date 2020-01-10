@@ -6,13 +6,7 @@ from TodoList.models import TodoList
 class DeskSerializer(serializers.ModelSerializer):
     class Meta:
         model   = Desk
-        fields  = (
-            'id',
-            'title',
-            'slug',
-            'created_at',
-            'updated_at'
-        )
+        fields  = '__all__'
 
 
 class TodoListSerializer(serializers.ModelSerializer):
